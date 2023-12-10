@@ -1503,7 +1503,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 096069a9-fb60-4ad3-87a7-504be9e10899)
   )
-  (hierarchical_label "ARBITRATED_RAM_ADDRESS_7" (shape output) (at 246.38 77.47 0) (fields_autoplaced)
+  (hierarchical_label "ARB_RAM_ADDRESS_7" (shape output) (at 246.38 77.47 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 45e862b7-4ce5-40ec-be32-739ce5462867)
   )
