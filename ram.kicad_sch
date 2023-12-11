@@ -1718,7 +1718,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 258c0c9b-9574-46db-8b84-2173729620b9)
   )
-  (hierarchical_label "~{RAM_OUTPUT}" (shape output) (at 269.24 100.33 0) (fields_autoplaced)
+  (hierarchical_label "~{RAM_OUTPUT}" (shape input) (at 269.24 100.33 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 54e28500-241f-424e-9d7a-3623b17d0db0)
   )

@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "8-bit CPU")
+    (date "2023-11-28")
+    (rev "1.0")
+    (company "TBR Designs")
+  )
+
   (lib_symbols
     (symbol "74xx:74HCT00" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 1.27 0)
@@ -1192,6 +1199,8 @@
   (no_connect (at 208.28 39.37) (uuid 5fdd4bf8-d61b-4487-bd21-2f0d0d437081))
   (no_connect (at 201.93 100.33) (uuid 69aced0a-3348-4eaf-8201-f9760feaff00))
   (no_connect (at 199.39 100.33) (uuid c89c4542-3fe4-43f1-92d3-b8d1d1e70207))
+  (no_connect (at 199.39 125.73) (uuid e4a81022-24b8-4882-ba5a-f1c081831a82))
+  (no_connect (at 201.93 125.73) (uuid ef1545a3-2fc3-4128-904b-0af6ef43acf8))
 
   (wire (pts (xy 142.24 87.63) (xy 181.61 87.63))
     (stroke (width 0) (type default) (color 255 0 0 1))
