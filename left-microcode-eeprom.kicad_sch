@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "8-bit CPU")
+    (date "2023-11-28")
+    (rev "1.0")
+    (company "TBR Designs")
+  )
+
   (lib_symbols
     (symbol "01_my_library:28C64B" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 0 0)
