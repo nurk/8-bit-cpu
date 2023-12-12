@@ -538,10 +538,6 @@
       "Microstep counter"
     ],
     [
-      "592ff0ed-0688-4db1-b04b-e905201025c7",
-      "CPU flags"
-    ],
-    [
       "0e5af4fe-5ef2-4486-974c-49740f34623a",
       "Left Microcode EEPROM"
     ],
@@ -552,6 +548,10 @@
     [
       "b366b11d-2830-45f0-9c94-a2792c6fd84a",
       "Right Microcode EEPROM"
+    ],
+    [
+      "592ff0ed-0688-4db1-b04b-e905201025c7",
+      "CPU flags"
     ]
   ],
   "text_variables": {}

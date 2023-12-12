@@ -2661,7 +2661,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "15"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "18"))
       )
     )
   )
