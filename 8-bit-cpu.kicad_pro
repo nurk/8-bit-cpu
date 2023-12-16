@@ -552,6 +552,14 @@
     [
       "592ff0ed-0688-4db1-b04b-e905201025c7",
       "CPU flags"
+    ],
+    [
+      "54bf2e20-7ca1-4029-bb63-3da9aa82cef3",
+      "X Register"
+    ],
+    [
+      "77326d47-b417-46cc-a46c-7ab94a8e927d",
+      "Stack"
     ]
   ],
   "text_variables": {}

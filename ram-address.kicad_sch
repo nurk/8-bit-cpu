@@ -1956,8 +1956,8 @@
     (uuid ffa295ca-e59d-46f0-88d8-9114f1345c50)
   )
 
-  (text "A word on the RESET line.\nOn my breadboards this is giving me a lot of problems.\nWhen there are 4 or more lines high on the RAM value\nand I toggle between RAM_OUTPUT and not RAM_OUTPUT\nthe RAM address gets RESET for some reason.\nAfter trying everything I could think of (pull ups, pull downs,\ndisconnecting the bus, replacing chips, replacing wires, ...)\nI got nowhere.  So I decided to disconnect the RESET line from the\nflip flops and just add pull down resistors. (Can even be just a wire to GND.)\nRESET for the RAM address is not really needed given the pogram\nloads the first address from the program counter which is 0.\n\nThis is not reflected in the schematic because I do not know if\nit is related to the breadboards or not."
-    (at 13.97 45.72 0)
+  (text "A word on the RESET line.\nOn my breadboards this is giving me a lot of problems.\nWhen there are 4 or more lines high on the RAM value\nand I toggle between RAM_OUTPUT and not RAM_OUTPUT\nthe RAM address gets RESET for some reason.\nAfter trying everything I could think of (pull ups, pull downs,\ndisconnecting the bus, replacing chips, replacing wires, ...)\nI got nowhere.  So I decided to disconnect the RESET line from the\nflip flops and just tie them to GND.\nRESET for the RAM address is not really needed given the pogram\nloads the first address from the program counter which is 0.\nI might hook it up again and see once all the control \nsignals are connected.\n\nThis is not reflected in the schematic because I do not know if\nit is related to the breadboards or not."
+    (at 13.97 49.53 0)
     (effects (font (size 1.4 1.4) (color 0 0 132 1)) (justify left bottom))
     (uuid 5a7a514a-4d46-4ac3-93a1-a9da383d1bf8)
   )
