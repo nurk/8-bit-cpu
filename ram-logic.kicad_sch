@@ -1590,7 +1590,7 @@
           (reference "#PWR0148") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -1746,7 +1746,7 @@
           (reference "#PWR0147") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -1755,7 +1755,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 43.18 165.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d3620e1-c7e4-4398-8c54-c229c36808a3)
-    (property "Reference" "D55" (at 43.18 168.91 0)
+    (property "Reference" "D56" (at 43.18 168.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Schottky" (at 43.18 171.45 0)
@@ -1772,7 +1772,7 @@
     (instances
       (project "8-bit-cpu"
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "D55") (unit 1)
+          (reference "D56") (unit 1)
         )
       )
     )
@@ -1801,7 +1801,7 @@
           (reference "D46") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "D53") (unit 1)
+          (reference "D54") (unit 1)
         )
       )
     )
@@ -1868,7 +1868,7 @@
           (reference "R73") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "R84") (unit 1)
+          (reference "R85") (unit 1)
         )
       )
     )
@@ -1897,7 +1897,7 @@
           (reference "R83") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "R85") (unit 1)
+          (reference "R86") (unit 1)
         )
       )
     )
@@ -2040,7 +2040,7 @@
           (reference "#PWR0142") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -2106,7 +2106,7 @@
           (reference "#PWR0125") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -2256,7 +2256,7 @@
           (reference "R74") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "R83") (unit 1)
+          (reference "R84") (unit 1)
         )
       )
     )
@@ -2299,7 +2299,7 @@
           (reference "#PWR0142") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -2342,7 +2342,7 @@
           (reference "#PWR0148") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -2385,7 +2385,7 @@
           (reference "#PWR0148") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -2539,7 +2539,7 @@
           (reference "#PWR0148") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -2548,7 +2548,7 @@
   (symbol (lib_id "Device:R") (at 109.22 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c148f75c-2e09-434f-ae1d-5e7656075502)
-    (property "Reference" "R86" (at 111.76 148.59 0)
+    (property "Reference" "R87" (at 111.76 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 111.76 151.13 0)
@@ -2565,7 +2565,7 @@
     (instances
       (project "8-bit-cpu"
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "R86") (unit 1)
+          (reference "R87") (unit 1)
         )
       )
     )
@@ -2608,7 +2608,7 @@
           (reference "#PWR0148") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -2692,7 +2692,7 @@
           (reference "#PWR0147") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
       )
     )
@@ -2721,7 +2721,7 @@
           (reference "D47") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "D54") (unit 1)
+          (reference "D55") (unit 1)
         )
       )
     )
@@ -2730,7 +2730,7 @@
   (symbol (lib_id "Device:R") (at 62.23 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1cc6264-18fa-4dbb-9e8f-e9f584c5fad9)
-    (property "Reference" "R87" (at 64.77 176.53 0)
+    (property "Reference" "R88" (at 64.77 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 64.77 179.07 0)
@@ -2747,7 +2747,7 @@
     (instances
       (project "8-bit-cpu"
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "R87") (unit 1)
+          (reference "R88") (unit 1)
         )
       )
     )
@@ -2823,7 +2823,7 @@
           (reference "#PWR0148") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -2863,7 +2863,7 @@
           (reference "#PWR0147") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/bcf72b05-a298-432c-8bad-dccda5c38b50"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
     )
