@@ -2282,7 +2282,7 @@
           (reference "#PWR099") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0212") (unit 1)
+          (reference "#PWR0215") (unit 1)
         )
       )
     )
@@ -2310,7 +2310,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0222") (unit 1)
+          (reference "#PWR0225") (unit 1)
         )
       )
     )
@@ -2393,7 +2393,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0204") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -2561,7 +2561,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0213") (unit 1)
+          (reference "#PWR0216") (unit 1)
         )
       )
     )
@@ -2589,7 +2589,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0207") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -2617,7 +2617,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0218") (unit 1)
+          (reference "#PWR0221") (unit 1)
         )
       )
     )
@@ -2683,7 +2683,7 @@
           (reference "#PWR090") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0220") (unit 1)
+          (reference "#PWR0223") (unit 1)
         )
       )
     )
@@ -2755,7 +2755,7 @@
           (reference "#PWR092") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0221") (unit 1)
+          (reference "#PWR0224") (unit 1)
         )
       )
     )
@@ -2812,7 +2812,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0205") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -2866,7 +2866,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0211") (unit 1)
+          (reference "#PWR0214") (unit 1)
         )
       )
     )
@@ -2932,7 +2932,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0214") (unit 1)
+          (reference "#PWR0217") (unit 1)
         )
       )
     )
@@ -2960,7 +2960,7 @@
           (reference "#PWR097") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0209") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )
@@ -3417,7 +3417,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0210") (unit 1)
+          (reference "#PWR0213") (unit 1)
         )
       )
     )
@@ -3426,7 +3426,7 @@
   (symbol (lib_id "power:GND") (at 115.57 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c936fcd5-bdb5-4d5c-b018-adee406744a1)
-    (property "Reference" "#PWR0224" (at 115.57 139.7 0)
+    (property "Reference" "#PWR0227" (at 115.57 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 138.43 0)
@@ -3442,7 +3442,7 @@
     (instances
       (project "8-bit-cpu"
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0224") (unit 1)
+          (reference "#PWR0227") (unit 1)
         )
       )
     )
@@ -3470,7 +3470,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0206") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -3498,7 +3498,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0219") (unit 1)
+          (reference "#PWR0222") (unit 1)
         )
       )
     )
@@ -3608,7 +3608,7 @@
           (reference "#PWR095") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0208") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -3636,7 +3636,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0215") (unit 1)
+          (reference "#PWR0218") (unit 1)
         )
       )
     )
@@ -3836,7 +3836,7 @@
           (reference "#PWR088") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0217") (unit 1)
+          (reference "#PWR0220") (unit 1)
         )
       )
     )
@@ -3864,7 +3864,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0216") (unit 1)
+          (reference "#PWR0219") (unit 1)
         )
       )
     )
@@ -3892,7 +3892,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/592ff0ed-0688-4db1-b04b-e905201025c7"
-          (reference "#PWR0223") (unit 1)
+          (reference "#PWR0226") (unit 1)
         )
       )
     )
