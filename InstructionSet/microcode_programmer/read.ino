@@ -5,6 +5,7 @@ byte readByte(int address) {
     pinMode(pin, INPUT);
   }
   setAddress(address);
+  delay(1);
 
   byte data = 0;
   for (int pin = EEPROM_D7; pin >= EEPROM_D0; pin--) {

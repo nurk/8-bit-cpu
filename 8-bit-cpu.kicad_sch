@@ -3050,7 +3050,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid f58d71c6-b707-4f2a-be03-48908eba56be)
     )
-    (pin "~{X_INPUT}" input (at 161.29 309.88 180)
+    (pin "X_INPUT" input (at 161.29 309.88 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 50677733-765c-45df-bf2c-6b04519b931d)
     )
@@ -3104,7 +3104,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "19"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "20"))
       )
     )
   )
@@ -3213,7 +3213,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "18"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "19"))
       )
     )
   )
@@ -3379,7 +3379,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "20"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "21"))
       )
     )
   )
@@ -3526,7 +3526,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 80b36bed-4b9d-4486-bf66-99f6077d7e57)
     )
-    (pin "~{X_INPUT}" output (at 123.19 241.3 0)
+    (pin "X_INPUT" output (at 123.19 241.3 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid b79e7a4c-6625-42c6-bc15-95309302d907)
     )

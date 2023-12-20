@@ -588,6 +588,9 @@
   (junction (at 200.66 72.39) (diameter 0) (color 0 0 0 0)
     (uuid a4cd3dba-b3f2-47c0-816b-9c92f799167e)
   )
+  (junction (at 208.28 50.8) (diameter 0) (color 255 0 0 1)
+    (uuid a84f6c7b-d570-44c7-9c73-8fcc55be675d)
+  )
   (junction (at 148.59 57.15) (diameter 0) (color 0 0 0 0)
     (uuid a90700f8-2596-449b-832f-363308f796cc)
   )
@@ -710,6 +713,10 @@
     (stroke (width 0) (type default) (color 0 0 255 1))
     (uuid 1ac04bc1-4af5-4afb-a228-94828469026a)
   )
+  (wire (pts (xy 220.98 36.83) (xy 220.98 39.37))
+    (stroke (width 0) (type default) (color 255 0 0 1))
+    (uuid 1f1f1168-d069-47b4-a109-01dd41da824c)
+  )
   (wire (pts (xy 30.48 46.99) (xy 138.43 46.99))
     (stroke (width 0) (type default) (color 255 0 0 1))
     (uuid 1f34999d-4da9-41d0-931d-aed1868175ef)
@@ -794,6 +801,10 @@
     (stroke (width 0) (type default) (color 255 0 0 1))
     (uuid 3f6ef415-4360-442a-9968-dee663837bb3)
   )
+  (wire (pts (xy 208.28 50.8) (xy 208.28 36.83))
+    (stroke (width 0) (type default) (color 255 0 0 1))
+    (uuid 40ac9381-2742-40ec-a5ba-fb4955e025c2)
+  )
   (wire (pts (xy 74.93 100.33) (xy 113.03 100.33))
     (stroke (width 0) (type default))
     (uuid 40c76d6b-7623-4421-8cbc-b04a9074c205)
@@ -869,6 +880,10 @@
   (wire (pts (xy 35.56 58.42) (xy 35.56 87.63))
     (stroke (width 0) (type default) (color 255 0 0 1))
     (uuid 62b1e532-0504-4bc0-9d72-5c3831236f78)
+  )
+  (wire (pts (xy 208.28 36.83) (xy 220.98 36.83))
+    (stroke (width 0) (type default) (color 255 0 0 1))
+    (uuid 656f15ba-8cf1-40e8-8998-e9dfa18e5de8)
   )
   (wire (pts (xy 123.19 102.87) (xy 123.19 133.35))
     (stroke (width 0) (type default))
@@ -1208,6 +1223,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9ced388c-d401-4a8c-bbe9-2c0059bb7295)
   )
+  (text "In order to make the A register\nnot reset randomly I had to add\na 10n capacitor to ground.\nDo not know why.\nThis might be a breadboard thing."
+    (at 245.11 43.18 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c6961eae-0b3e-4db7-b50d-c6642e6f88ad)
+  )
 
   (hierarchical_label "A_4" (shape output) (at 222.25 130.81 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -1342,7 +1362,7 @@
           (reference "C1") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "C15") (unit 1)
+          (reference "C16") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "C17") (unit 1)
@@ -1412,7 +1432,7 @@
   (symbol (lib_id "power:GND") (at 138.43 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fc03f33-ba58-406c-9c47-21193744f974)
-    (property "Reference" "#PWR048" (at 138.43 173.99 0)
+    (property "Reference" "#PWR049" (at 138.43 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 172.72 0)
@@ -1428,7 +1448,7 @@
     (instances
       (project "8-bit-cpu"
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "#PWR051") (unit 1)
@@ -1460,7 +1480,7 @@
           (reference "C1") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "C13") (unit 1)
+          (reference "C14") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "C15") (unit 1)
@@ -1491,7 +1511,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "#PWR047") (unit 1)
@@ -1561,7 +1581,7 @@
   (symbol (lib_id "power:GND") (at 125.73 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f8d6f08-e0c4-4b15-bf9e-5811a7a18def)
-    (property "Reference" "#PWR042" (at 125.73 78.74 0)
+    (property "Reference" "#PWR043" (at 125.73 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.73 77.47 0)
@@ -1577,7 +1597,7 @@
     (instances
       (project "8-bit-cpu"
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "#PWR050") (unit 1)
@@ -1738,7 +1758,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "#PWR056") (unit 1)
@@ -1769,7 +1789,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "#PWR053") (unit 1)
@@ -1807,10 +1827,41 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 220.98 46.99 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 51c2d9a3-2bf9-419d-b2ee-5e93a43539a9)
+    (property "Reference" "#PWR03" (at 220.98 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 220.98 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 220.98 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 220.98 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c07387f5-9da0-40f7-9249-3a5553e1c70b))
+    (instances
+      (project "8-bit-cpu"
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/45eb39c3-c748-461e-8330-08aae1247dee"
+          (reference "#PWR03") (unit 1)
+        )
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
+          (reference "#PWR038") (unit 1)
+        )
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
+          (reference "#PWR056") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+5V") (at 104.14 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53135079-4cf9-4b0d-86b7-2153b8ee59f8)
-    (property "Reference" "#PWR047" (at 104.14 85.09 0)
+    (property "Reference" "#PWR048" (at 104.14 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 104.14 76.2 0)
@@ -1826,7 +1877,7 @@
     (instances
       (project "8-bit-cpu"
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "#PWR049") (unit 1)
@@ -1867,7 +1918,7 @@
   (symbol (lib_id "power:+5V") (at 255.27 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d281fa3-ce03-4322-a8c0-57cc2fb7a3b8)
-    (property "Reference" "#PWR040" (at 255.27 73.66 0)
+    (property "Reference" "#PWR041" (at 255.27 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 255.27 64.77 0)
@@ -1883,7 +1934,7 @@
     (instances
       (project "8-bit-cpu"
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "#PWR055") (unit 1)
@@ -1924,7 +1975,7 @@
   (symbol (lib_id "power:GND") (at 92.71 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 780bd0d8-cd09-4d1b-b7bd-7a824eb7bc0f)
-    (property "Reference" "#PWR041" (at 92.71 78.74 0)
+    (property "Reference" "#PWR042" (at 92.71 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.71 77.47 0)
@@ -1940,7 +1991,7 @@
     (instances
       (project "8-bit-cpu"
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "#PWR048") (unit 1)
@@ -1981,7 +2032,7 @@
   (symbol (lib_id "power:+5V") (at 52.07 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5a19863-9cbc-46d1-aaa5-0c9a81d3993a)
-    (property "Reference" "#PWR038" (at 52.07 73.66 0)
+    (property "Reference" "#PWR039" (at 52.07 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 52.07 64.77 0)
@@ -1997,7 +2048,7 @@
     (instances
       (project "8-bit-cpu"
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "#PWR046") (unit 1)
@@ -2058,7 +2109,7 @@
           (reference "C1") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "C14") (unit 1)
+          (reference "C15") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "C16") (unit 1)
@@ -2070,7 +2121,7 @@
   (symbol (lib_id "power:+5V") (at 180.34 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5e48758-8300-4e36-9625-89441d3ffc8c)
-    (property "Reference" "#PWR039" (at 180.34 73.66 0)
+    (property "Reference" "#PWR040" (at 180.34 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 180.34 64.77 0)
@@ -2086,7 +2137,7 @@
     (instances
       (project "8-bit-cpu"
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "#PWR052") (unit 1)
@@ -2272,10 +2323,36 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 220.98 43.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (uuid fd8657e8-08d3-44c7-9805-195733e4bf63)
+    (property "Reference" "C13" (at 224.79 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10n" (at 224.79 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 221.9452 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 220.98 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f42f5a7f-e4ae-4c03-a52a-f423685bbf0c))
+    (pin "2" (uuid d7e80605-ddf3-4789-81f8-4d6219024a00))
+    (instances
+      (project "8-bit-cpu"
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
+          (reference "C13") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 200.66 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ffbe8c64-4dd5-4860-8422-97414f45cf1c)
-    (property "Reference" "#PWR043" (at 200.66 78.74 0)
+    (property "Reference" "#PWR044" (at 200.66 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 77.47 0)
@@ -2291,7 +2368,7 @@
     (instances
       (project "8-bit-cpu"
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
           (reference "#PWR054") (unit 1)

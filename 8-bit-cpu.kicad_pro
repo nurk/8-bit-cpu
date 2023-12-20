@@ -534,6 +534,10 @@
       "Control logic"
     ],
     [
+      "da230027-cd37-47f3-abaf-a6951a86af11",
+      "EEPROM address buffer"
+    ],
+    [
       "e9aea2e6-cf94-44c3-af7b-758fed303269",
       "Microstep counter"
     ],

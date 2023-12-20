@@ -6,8 +6,10 @@
 #define WRITE_EN 13
 #define OUTPUT_EN 14
 
+bool DEBUG = false;
+
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(57600);
   pinMode(DATA, OUTPUT);
   pinMode(CLOCK, OUTPUT);
   pinMode(LATCH, OUTPUT);
@@ -23,6 +25,13 @@ void loop() {
 }
 
 void setAddress(uint32_t address) {
+  if (DEBUG) {
+    Serial.print("Address ");
+    Serial.print(address, BIN);
+    Serial.print(" ");
+    Serial.println(address, HEX);
+    Serial.println("-");
+  }
   shiftOut(DATA, CLOCK, MSBFIRST, address);
   shiftOut(DATA, CLOCK, MSBFIRST, (address >> 8));
 

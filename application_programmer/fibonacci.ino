@@ -32,6 +32,7 @@ void fibonacci() {
   writeInstruction(JC, 0);
   writeInstruction(OUT);
   writeInstruction(STA, x);
+  writeInstruction(HLT);
   writeInstruction(LDA, y);
   writeInstruction(STA, z);
   writeInstruction(LDA, x);

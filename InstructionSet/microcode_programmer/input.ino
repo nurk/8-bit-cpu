@@ -20,6 +20,10 @@ void readSerial() {
       Serial.println("Erasing all");
       eraseEEPROM(8192);
     }
+    if (serialInput.indexOf("test") == 0) {
+      Serial.println("test");
+      test();
+    }
     serialInput = "";
   }
 }

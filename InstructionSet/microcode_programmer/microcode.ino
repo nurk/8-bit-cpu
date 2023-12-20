@@ -1,5 +1,3 @@
-#define DEBUG false
-
 uint32_t CE = 0b100000000000000000000000;    // Program counter enable
 uint32_t RI = 0b010000000000000000000000;    // RAM data in
 uint32_t RaI = 0b001000000000000000000000;   // RAM address in
@@ -80,7 +78,6 @@ uint32_t INCX_ADDRESS = 0b011001000;  // 011001
 uint32_t DECX[8] = { RaI | CO, RO | II | CE, DCR, FI, 0, 0, 0, 0 };
 uint32_t DECX_ADDRESS = 0b011010000;  // 011010
 
-
 uint32_t FLAGS_Z0C0 = 0b00000000000;
 uint32_t FLAGS_Z0C1 = 0b01000000000;
 uint32_t FLAGS_Z1C0 = 0b10000000000;
@@ -91,6 +88,14 @@ uint32_t LEFT = 0b0000000000000;
 uint32_t MIDDLE = 0b1000000000000;
 uint32_t RIGHT = 0b0100000000000;
 
+
+void test() {
+  DEBUG = true;
+  writeInstructions(OUT_ADDRESS, OUT);
+  //Serial.println("Written OUT");
+  //writeInstruction(OUT_ADDRESS, OUT[2], 2, FLAGS_Z0C0);
+  DEBUG = false;
+}
 void writeEeprom() {
   writeInstructions(NOP_ADDRESS, NOP);
   Serial.println("Written NOP");
@@ -168,21 +173,33 @@ void writeInstruction(uint32_t address, uint32_t instruction, int step, uint32_t
 }
 
 void writeToEeproms(uint32_t address, uint32_t instruction) {
+  byte right = instruction;
+  byte middle = instruction >> 8;
+  byte left = instruction >> 16;
+
   if (DEBUG) {
-    Serial.println("left");
-    Serial.println(LEFT | address, BIN);
-    Serial.println(instruction >> 16, BIN);
+    // Serial.println(instruction, BIN);
 
-    Serial.println("middle value");
-    Serial.println(MIDDLE | address, BIN);
-    Serial.println(instruction >> 8, BIN);
+    // Serial.println("left");
+    // Serial.println(LEFT | address, BIN);
+    // Serial.println(LEFT | address, HEX);
+    // Serial.println(left, BIN);
+    // Serial.println(left, HEX);
 
-    Serial.println("right value");
-    Serial.println(RIGHT | address, BIN);
-    Serial.println(instruction, BIN);
+    // Serial.println("middle value");
+    // Serial.println(MIDDLE | address, BIN);
+    // Serial.println(MIDDLE | address, HEX);
+    // Serial.println(middle, BIN);
+    // Serial.println(middle, HEX);
+
+    // Serial.println("right value");
+    // Serial.println(RIGHT | address, BIN);
+    // Serial.println(RIGHT | address, HEX);
+    // Serial.println(right, BIN);
+    // Serial.println(right, HEX);
   }
 
-  writeByte(LEFT | address, instruction >> 16);
-  writeByte(MIDDLE | address, instruction >> 8);
-  writeByte(RIGHT | address, instruction);
+  writeByte(LEFT | address, left);
+  writeByte(MIDDLE | address, middle);
+  writeByte(RIGHT | address, right);
 }
