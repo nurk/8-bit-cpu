@@ -1,16 +1,17 @@
 byte readByte(int address) {
-  digitalWrite(OUTPUT_EN, LOW);
   digitalWrite(WRITE_EN, HIGH);
   for (int pin = EEPROM_D0; pin <= EEPROM_D7; pin++) {
-    pinMode(pin, INPUT);
+    pinMode(pin, INPUT_PULLUP);
   }
   setAddress(address);
+  digitalWrite(OUTPUT_EN, LOW);
   delay(1);
 
   byte data = 0;
   for (int pin = EEPROM_D7; pin >= EEPROM_D0; pin--) {
     data = (data << 1) + digitalRead(pin);
   }
+  digitalWrite(OUTPUT_EN, HIGH);
   return data;
 }
 
@@ -28,4 +29,5 @@ void readEEPROM(int upTo) {
 
     Serial.println(buf);
   }
+  available = true;
 }

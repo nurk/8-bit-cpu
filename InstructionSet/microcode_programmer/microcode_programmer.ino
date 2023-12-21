@@ -4,9 +4,10 @@
 #define EEPROM_D0 5
 #define EEPROM_D7 12
 #define WRITE_EN 13
-#define OUTPUT_EN 14
+#define OUTPUT_EN A0
 
 bool DEBUG = false;
+bool available = true;
 
 void setup() {
   Serial.begin(57600);
@@ -24,14 +25,7 @@ void loop() {
   readSerial();
 }
 
-void setAddress(uint32_t address) {
-  if (DEBUG) {
-    Serial.print("Address ");
-    Serial.print(address, BIN);
-    Serial.print(" ");
-    Serial.println(address, HEX);
-    Serial.println("-");
-  }
+void setAddress(int address) {
   shiftOut(DATA, CLOCK, MSBFIRST, address);
   shiftOut(DATA, CLOCK, MSBFIRST, (address >> 8));
 

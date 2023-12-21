@@ -32,12 +32,11 @@ void fibonacci() {
   writeInstruction(JC, 0);
   writeInstruction(OUT);
   writeInstruction(STA, x);
-  writeInstruction(HLT);
   writeInstruction(LDA, y);
   writeInstruction(STA, z);
   writeInstruction(LDA, x);
   writeInstruction(STA, y);
-  writeInstruction(JMP, instructionCounter);
+  writeInstruction(JMP, loop);
 
   Serial.print("Instruction counter at ");
   Serial.println(instructionCounter);

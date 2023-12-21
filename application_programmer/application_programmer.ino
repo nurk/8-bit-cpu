@@ -34,7 +34,7 @@ int dataCounter = 0;
 const int dataOffset = 128;
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(57600);
 
   pinMode(WRITE_PIN, OUTPUT);
   digitalWrite(WRITE_PIN, LOW);

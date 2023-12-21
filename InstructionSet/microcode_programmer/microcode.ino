@@ -1,27 +1,32 @@
-uint32_t CE = 0b100000000000000000000000;    // Program counter enable
-uint32_t RI = 0b010000000000000000000000;    // RAM data in
-uint32_t RaI = 0b001000000000000000000000;   // RAM address in
-uint32_t RO = 0b000100000000000000000000;    // RAM data out
-uint32_t II = 0b000010000000000000000000;    // Instruction register in
-uint32_t J = 0b000001000000000000000000;     // Jump (program counter in)
-uint32_t CO = 0b000000100000000000000000;    // Program counter out
-uint32_t AI = 0b000000010000000000000000;    // A register in
-uint32_t S = 0b000000001000000000000000;     // ALU subtract
+// left
+uint32_t CE   = 0b100000000000000000000000;    // Program counter enable
+uint32_t RI   = 0b010000000000000000000000;    // RAM data in
+uint32_t RaI  = 0b001000000000000000000000;   // RAM address in
+uint32_t RO   = 0b000100000000000000000000;    // RAM data out
+uint32_t II   = 0b000010000000000000000000;    // Instruction register in
+uint32_t J    = 0b000001000000000000000000;     // Jump (program counter in)
+uint32_t CO   = 0b000000100000000000000000;    // Program counter out
+uint32_t AI   = 0b000000010000000000000000;    // A register in
+
+// middle
+uint32_t S    = 0b000000001000000000000000;     // ALU subtract
 uint32_t HALT = 0b000000000100000000000000;  // Halt
-uint32_t AO = 0b000000000010000000000000;    // A register out
-uint32_t AlO = 0b000000000001000000000000;   // ALU out
-uint32_t BI = 0b000000000000100000000000;    // B register in
-uint32_t BO = 0b000000000000010000000000;    // B register out
-uint32_t OI = 0b000000000000001000000000;    // Output
-uint32_t FI = 0b000000000000000100000000;    // Flags in
-uint32_t INC = 0b000000000000000010000000;   // Increment X
-uint32_t DCR = 0b000000000000000001000000;   // Decrement X
-uint32_t SUP = 0b000000000000000000100000;   // Stack up
-uint32_t SDN = 0b000000000000000000010000;   // Stack down
-uint32_t SA = 0b000000000000000000001000;    // Stack address
-uint32_t SO = 0b000000000000000000000100;    // Stack output
-uint32_t XI = 0b000000000000000000000010;    // X register in
-uint32_t XO = 0b000000000000000000000001;    // X register out
+uint32_t AO   = 0b000000000010000000000000;    // A register out
+uint32_t AlO  = 0b000000000001000000000000;   // ALU out
+uint32_t BI   = 0b000000000000100000000000;    // B register in
+uint32_t BO   = 0b000000000000010000000000;    // B register out
+uint32_t OI   = 0b000000000000001000000000;    // Output
+uint32_t FI   = 0b000000000000000100000000;    // Flags in
+
+// right
+uint32_t INC  = 0b000000000000000010000000;   // Increment X
+uint32_t DCR  = 0b000000000000000001000000;   // Decrement X
+uint32_t SUP  = 0b000000000000000000100000;   // Stack up
+uint32_t SDN  = 0b000000000000000000010000;   // Stack down
+uint32_t SA   = 0b000000000000000000001000;    // Stack address
+uint32_t SO   = 0b000000000000000000000100;    // Stack output
+uint32_t XI   = 0b000000000000000000000010;    // X register in
+uint32_t XO   = 0b000000000000000000000001;    // X register out
 
 uint32_t NOP[8] = { RaI | CO, RO | II | CE, 0, 0, 0, 0, 0, 0 };
 uint32_t NOP_ADDRESS = 0b000000000;  // 000000
@@ -31,7 +36,7 @@ uint32_t ADD[8] = { RaI | CO, RO | II | CE, CO | RaI, CE | RaI | RO, RO | BI, AI
 uint32_t ADD_ADDRESS = 0b000010000;  // 000010
 uint32_t SUB[8] = { RaI | CO, RO | II | CE, CO | RaI, CE | RaI | RO, RO | BI, AI | AlO | S | FI, 0, 0 };
 uint32_t SUB_ADDRESS = 0b000011000;  // 000011
-uint32_t STA[8] = { RaI | CO, RO | II | CE, CO | RaI, CE | RaI | RO, RI | A0, 0, 0, 0 };
+uint32_t STA[8] = { RaI | CO, RO | II | CE, CO | RaI, CE | RaI | RO, RI | AO, 0, 0, 0 };
 uint32_t STA_ADDRESS = 0b000100000;  // 000100
 uint32_t LDI[8] = { RaI | CO, RO | II | CE, CO | RaI, CE | RO | AI, 0, 0, 0, 0 };
 uint32_t LDI_ADDRESS = 0b000101000;  // 000101
@@ -91,10 +96,12 @@ uint32_t RIGHT = 0b0100000000000;
 
 void test() {
   DEBUG = true;
-  writeInstructions(OUT_ADDRESS, OUT);
+  Serial.println(RI|AO, BIN);
+  writeInstructions(STA_ADDRESS, STA);
   //Serial.println("Written OUT");
   //writeInstruction(OUT_ADDRESS, OUT[2], 2, FLAGS_Z0C0);
   DEBUG = false;
+  available = true;
 }
 void writeEeprom() {
   writeInstructions(NOP_ADDRESS, NOP);
@@ -114,7 +121,7 @@ void writeEeprom() {
   writeInstructions(JC_ADDRESS, JC);
   Serial.println("Written JC");
   writeInstructions(JZ_ADDRESS, JZ);
-  Serial.println("Written JC");
+  Serial.println("Written JZ");
   writeInstructions(LDB_ADDRESS, LDB);
   Serial.println("Written LDB");
   writeInstructions(STB_ADDRESS, STB);
@@ -159,6 +166,7 @@ void writeEeprom() {
   Serial.println("Written Special flags");
 
   Serial.println("Writing done");
+  available = true;
 }
 void writeInstructions(uint32_t address, uint32_t instructions[8]) {
   for (int step = 0; step < 8; step++) {
@@ -178,25 +186,7 @@ void writeToEeproms(uint32_t address, uint32_t instruction) {
   byte left = instruction >> 16;
 
   if (DEBUG) {
-    // Serial.println(instruction, BIN);
-
-    // Serial.println("left");
-    // Serial.println(LEFT | address, BIN);
-    // Serial.println(LEFT | address, HEX);
-    // Serial.println(left, BIN);
-    // Serial.println(left, HEX);
-
-    // Serial.println("middle value");
-    // Serial.println(MIDDLE | address, BIN);
-    // Serial.println(MIDDLE | address, HEX);
-    // Serial.println(middle, BIN);
-    // Serial.println(middle, HEX);
-
-    // Serial.println("right value");
-    // Serial.println(RIGHT | address, BIN);
-    // Serial.println(RIGHT | address, HEX);
-    // Serial.println(right, BIN);
-    // Serial.println(right, HEX);
+    Serial.println(instruction, BIN);
   }
 
   writeByte(LEFT | address, left);
