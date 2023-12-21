@@ -16,6 +16,10 @@ void readSerial() {
       Serial.println("Programming fibonacci");
       fibonacci();
     }
+    if (serialInput.indexOf("countdown") == 0) {
+      Serial.println("Programming countdown");
+      countDownTest();
+    }
     serialInput = "";
   }
 }

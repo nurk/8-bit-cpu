@@ -67,7 +67,7 @@ uint32_t STX_ADDRESS = 0b010001000;  // 010001
 uint32_t LDIX[8] = { RaI | CO, RO | II | CE, CO | RaI, CE | RO | XI, 0, 0, 0, 0 };
 uint32_t LDIX_ADDRESS = 0b010010000;  // 010010
 uint32_t PSH[8] = { RaI | CO, RO | II | CE, RaI | SA | SO, RI | AO | SUP | SA, 0, 0, 0, 0 };
-uint32_t PSH_ADDRESS = 0b010110000;  // 010011
+uint32_t PSH_ADDRESS = 0b010011000;  // 010011
 uint32_t POP[8] = { RaI | CO, RO | II | CE, SDN, RaI | SA | SO, RO | AI | SA, 0, 0, 0 };
 uint32_t POP_ADDRESS = 0b010100000;  // 010100
 uint32_t PSHB[8] = { RaI | CO, RO | II | CE, RaI | SA | SO, RI | BO | SUP | SA, 0, 0, 0, 0 };
@@ -96,8 +96,8 @@ uint32_t RIGHT = 0b0100000000000;
 
 void test() {
   DEBUG = true;
-  Serial.println(RI|AO, BIN);
-  writeInstructions(STA_ADDRESS, STA);
+  //Serial.println(RI|AO, BIN);
+  writeInstructions(PSH_ADDRESS, PSH);
   //Serial.println("Written OUT");
   //writeInstruction(OUT_ADDRESS, OUT[2], 2, FLAGS_Z0C0);
   DEBUG = false;

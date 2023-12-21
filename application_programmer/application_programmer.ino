@@ -17,7 +17,7 @@
 #define LDX 0b00010000
 #define STX 0b00010001
 #define LDIX 0b00010010
-#define PSH 0b00010110
+#define PSH 0b00010011
 #define POP 0b00010100
 #define PSHB 0b00010101
 #define POPB 0b00010110
