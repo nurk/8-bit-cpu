@@ -674,7 +674,7 @@
     (effects (font (size 2.25 2.25) (thickness 0.5) bold) (justify left bottom))
     (uuid 320a9b90-d4ed-44b9-a26e-bca2061afc75)
   )
-  (text "Program" (at 33.02 115.57 0)
+  (text "Program" (at 31.75 115.57 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 32c59bc2-1eea-458f-8ae0-309ba602c3fb)
   )
