@@ -90,5 +90,5 @@ On the internet there are many posts that say you have to add a lot of bulk capa
 
 I used the EEPROM programmer as designed by Ben, but make sure it is programmed correctly.  I had to rewire it because the EEPROM's did not contain what I expected them to contain. 
 
-![Picture](https://github.com/nurk/8-bit-cpu/blob/6ed92fadf7914b603337ab615f53bb69cbda4d9f/images/8-bity-cpu.jpeg)
+![Picture](https://raw.githubusercontent.com/nurk/8-bit-cpu/master/images/8-bity-cpu.jpeg)
 
