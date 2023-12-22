@@ -48,7 +48,7 @@ Next up, the goals of this build.
 
 The 220 Ohm resistor on each LED really made me think about component placement.  It dictated the layout on the breadboards.  Unlike what Ben does in his videos I could not just go from an output pin to ground.
 
-After all the orders arrived I started building my CPU module by module in the order of the videos.  I would first design each module in KiCad and use my design to build in on breadboards.
+After all the orders arrived I started building my CPU module by module in the order of the videos.  I would first design each module in KiCad and use my design to build it on breadboards.
 
 While building I initially used 10k Ohm resistors to either pull-up or pull-down control signal pins.  That way I could use a jumper wire to switch its state without the pin being floating during the transition.  (The resistors were removed after wiring up the control signals.) The different modules were tested individually once they were finished.
 
@@ -72,11 +72,11 @@ When I put a 10nF capacitor on the reset line close to the reset pin and ground 
 
 Next up were the random actions in the X register and stack.  After searching the internet I found out that when you change the address on an EEPROM there is a period of time where the data is invalid (this is also in the datasheet).  This shows itself by data pins going high or low randomly during the invalid period.  This was triggering the random actions.
 
-The first fix was not to trigger the load of the X register by just using an inverted control signal.  I used the non inverted control signal and the clock through an NAND gate to trigger the load.  This way the loading is tied to a clock transition which is in line with the rest of the design.  This made things better but did not solve everything.
+The first fix was not to trigger the load of the X register by just using an inverted control signal.  I used the non inverted control signal and the clock through a NAND gate to trigger the load.  This way the loading is tied to a clock transition which is in line with the rest of the design.  This made things better but did not solve everything.
 
-After some more searching on the internet I found a post where some explained that the entire computer reacts to the rising edge of the clock.  This includes the instruction register and the CPU flags which trigger address changes.  If you were to change the address on the falling edge of the clock the 'blips' on the EEPROM output would not matter.
+After some more searching on the internet I found a post where someone explained that the entire computer reacts to the rising edge of the clock.  This includes the instruction register and the CPU flags which trigger address changes.  If you were to change the address on the falling edge of the clock the 'blips' on the EEPROM output would not matter.
 
-I first thought about using the inverted clock for the instruction register and the CPU flags but decided against it.  I was not sure if this would have side effects.  Given I had some room below the instruction register I decided to add two more 74HCT173 D-type flip flops to latch the instruction register and the CPU flags on the falling edge of each clock.  This solved all the problems of random actions occurring.
+I first thought about using the inverted clock for the instruction register and the CPU flags but decided against it.  I was not sure if this would have side effects.  Given I had some room below the instruction register I decided to add two more 74HCT173 D-type flip flops to latch the instruction register and the CPU flags on the falling edge of each clock.  These latched values are used as the address lines for the EEPROM's.  This solved all the problems of random actions occurring.
 
 Lastly there was the problem of the RAM not always writing.  I was aware of issues with the RC circuit Ben has in his original design on the clock for the RAM input.  I already put in a diode to prevent back feeding any voltage as the capacitor discharges but I was still suspicious.  Given writing ram works with a push button in programming mode, which does not have an RC circuit on it, I figured it might work without.  After removing the RC circuit and just passing in the clock everything worked.
 
