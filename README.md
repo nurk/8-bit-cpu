@@ -11,11 +11,11 @@ I have always been intrigued by electronics by have never done anything with it.
 
 A while back I found a video series by Ben Eater about building an 8-bit computer on breadboards ([YouTube](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU)).  Watching the series I learned a lot about how CPU's (could) work and was really fascinated.  It all did not seem that complicated.
 
-So after thinking about it for a while and checking my finances (It is not really cheap) I decided to build a variation for it.   But first I did some research and set some goals.
+So after thinking about it for a while and checking my finances (It is not really cheap) I decided to build a variation of it.   But first I did some research and set some goals.
 
 The research taught me that I should not skimp on breadboard quality.  There are a lot of people that write about this and the breadboards from BusBoard Prototype Systems seem to be one of the best.
 
-Next I started digging into what is 74LS.  I learned that they are TTL logic chips but they are rather power hungry.  I decided I wanted to go with CMOS logic chips because they are more efficient.  In the end I went for 74HCT chips.  They are CMOS chips with TTL level support.  I went for this because I don't really now anything about this and I was not sure if I needed TTL level support in some parts.
+Next I started digging into what types of 74 series logic chips there are.  I learned that the 74LS series that Ben uses are TTL logic chips but they are rather power hungry.  I decided I wanted to go with CMOS logic chips because they are more efficient.  In the end I went for 74HCT chips.  They are CMOS chips with TTL level support.  I went for this because I don't really now anything about this and I was not sure if I needed TTL level support in some parts.
 
 So the chip series was decided and the breadboard brand was decided, now I needed a way to get all these things.  I started searching for those online and found the usual suspects: 
 * Farnell
