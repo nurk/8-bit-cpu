@@ -2735,7 +2735,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "12"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "13"))
       )
     )
   )
@@ -2796,7 +2796,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "11"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "12"))
       )
     )
   )
@@ -2873,7 +2873,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "6"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "7"))
       )
     )
   )
@@ -2970,7 +2970,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "4"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "5"))
       )
     )
   )
@@ -2999,7 +2999,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "2"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "3"))
       )
     )
   )
@@ -3104,7 +3104,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "20"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "21"))
       )
     )
   )
@@ -3213,7 +3213,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "19"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "20"))
       )
     )
   )
@@ -3310,7 +3310,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "3"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "4"))
       )
     )
   )
@@ -3379,7 +3379,24 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "21"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "22"))
+      )
+    )
+  )
+
+  (sheet (at 119.38 386.08) (size 36.83 17.78)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 229 191 1.0000))
+    (uuid c441c3d4-57ba-4fa0-9e7e-c75e7791b402)
+    (property "Sheetname" "Breadboard Layout" (at 120.65 388.62 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "breadboard-layout.kicad_sch" (at 119.38 404.4446 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "8-bit-cpu"
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "2"))
       )
     )
   )
@@ -3540,7 +3557,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "13"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "14"))
       )
     )
   )
@@ -3697,7 +3714,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "5"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "6"))
       )
     )
   )
@@ -3766,7 +3783,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "10"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c" (page "11"))
       )
     )
   )

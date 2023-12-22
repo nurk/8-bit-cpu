@@ -2920,7 +2920,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8" (page "7"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8" (page "8"))
       )
     )
   )
@@ -2977,7 +2977,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8" (page "9"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8" (page "10"))
       )
     )
   )
@@ -3062,7 +3062,7 @@
     )
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8" (page "8"))
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8" (page "9"))
       )
     )
   )
