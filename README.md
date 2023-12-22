@@ -43,7 +43,7 @@ Next up, the goals of this build.
 * Have an X register with +1 / -1 feature to enable specific loops and have it set the carry flag and zero flag
 * Have a Stack
 * Do not leave any input pins floating
-* Have a 220 Ohm resistor on each LED
+* Have a 220 Ohm resistor on each LED (this includes each segment of the 7-segment display)
 * Have a 100nF decoupling capacitor for each chip
 
 The 220 Ohm resistor on each LED really made me think about component placement.  It dictated the layout on the breadboards.  Unlike what Ben does in his videos I could not just go from an output pin to ground.
