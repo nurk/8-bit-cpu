@@ -3457,7 +3457,7 @@
     (property "Value" "10n" (at 137.16 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 145.7452 53.34 0)
+    (property "Footprint" "01_my_library:C_Disc_D4.0mm_W2.6mm_P2.50mm" (at 145.7452 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 144.78 49.53 0)
