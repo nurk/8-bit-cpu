@@ -64,3 +64,8 @@ void setup() {
 void loop() {
   readSerial();
 }
+
+void resetCounters() {
+  instructionCounter = 0;
+  dataCounter = 0;
+}

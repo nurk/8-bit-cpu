@@ -10,8 +10,7 @@
 // }
 
 void fibonacci() {
-  instructionCounter = 0;
-  dataCounter = 0;
+  resetCounters();
 
   int x = dataOffset;
   int y = dataOffset + 1;

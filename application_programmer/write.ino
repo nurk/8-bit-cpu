@@ -1,3 +1,11 @@
+void ex(byte instruction) {
+  writeInstruction(instruction);
+}
+
+void ex(byte instruction, byte operand) {
+  writeInstruction(instruction, operand);
+}
+
 void writeInstruction(byte instruction) {
   write(instructionCounter, instruction);
   instructionCounter++;

@@ -20,6 +20,14 @@ void readSerial() {
       Serial.println("Programming countdown");
       countDownTest();
     }
+    if (serialInput.indexOf("subtract") == 0) {
+      Serial.println("Programming subtract");
+      subtractTest();
+    }
+    if (serialInput.indexOf("subroutine") == 0) {
+      Serial.println("Programming subroutine");
+      subroutenTest();
+    }
     serialInput = "";
   }
 }
