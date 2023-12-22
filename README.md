@@ -88,7 +88,7 @@ I can program the CPU using the dip switches but that got old really quickly.  I
 
 On the internet there are many posts that say you have to add a lot of bulk capacitors to the breadboards in order to make it stable.  My CPU does not seem to need it.  It could be the quality of the breadboards, the fact that I used 74HCT chips or the quality of the power supply.  When running my Fibonacci program it draws a maximum of 350 mA.
 
-I used the EEPROM programmer as designed by Ben, but make sure it is programmed correctly.  I had to rewire it because the EEPROM's did not contain what I expected them to contain. 
+I used an alternative to the EEPROM programmer designed by Ben.  Given I used an Arduino Nano Every, which has more digital pins, I did not have to combine the write signal into the shift registers.  I did have to rewire it because my EEPROM's did not seems to have the content I expected. 
 
 ![Picture](https://raw.githubusercontent.com/nurk/8-bit-cpu/master/images/8-bity-cpu.jpeg)
 
