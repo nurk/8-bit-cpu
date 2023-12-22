@@ -82,7 +82,7 @@ Lastly there was the problem of the RAM not always writing.  I was aware of issu
 
 I now have an 8-bit breadboard CPU which supports addition, subtraction, push, pop, subroutines, ...
 
-####Some random bits:
+#### Some random bits:
 
 I can program the CPU using the dip switches but that got old really quickly.  I wrote a little Arduino application that could program the CPU.  I just hook up the ground, the address lines, the data lines and write signal to the breadboard from an [Arduino Nano Every](https://store.arduino.cc/products/arduino-nano-every).  This saves a lot of time and does not discourage me from making changes and retesting.
 
