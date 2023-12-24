@@ -25,7 +25,7 @@ So the chip series was decided and the breadboard brand was decided, now I neede
 
 I live in Belgium so delivery costs, import taxes and VAT were important.  After a test order from [Mouser](https://www.mouser.be/) I learned that they take care of the VAT and the import taxes, and when you order over 50 EUR (excluding VAT) the delivery is free.  Just don't get caught at checkout because the prices on the site are without VAT.
 
-I would also need power supply.  I did not want to use a cut open USB cable but wanted some extra features.
+I would also need a power supply.  I did not want to use a cut open USB cable but wanted some extra features.
 * The device needed a global on/off switch
 * I needed to be able to toggle the output on or off 
 * Obviously the voltage should be settable
@@ -34,7 +34,7 @@ I would also need power supply.  I did not want to use a cut open USB cable but 
 
 On Amazon I found this [device](https://www.amazon.nl/dp/B0C1SMSW9F?ref=ppx_yo2ov_dt_b_product_details&th=1) that had all the features I wanted and it was not out of my budget.
 
-Amazon was also used to buy the [wires](https://www.amazon.com.be/dp/B07V5FVSYL?psc=1&ref=ppx_yo2ov_dt_b_product_details) and initially some [resistors](https://www.amazon.com.be/dp/B0967TG6XR?ref=ppx_yo2ov_dt_b_product_details&th=1).  The wires we great and I ordered multiple of those because it seems this thing needs a lot of wire.  The resistors I hated and did not use.  The legs have a diameter of 0.3 mm which is just too thin.  When you want to insert them into a breadboard they just bend.  The resistors eventually also came from Mouser.
+Amazon was also used to buy the [wires](https://www.amazon.com.be/dp/B07V5FVSYL?psc=1&ref=ppx_yo2ov_dt_b_product_details) and initially some [resistors](https://www.amazon.com.be/dp/B0967TG6XR?ref=ppx_yo2ov_dt_b_product_details&th=1).  The wires were great and I ordered multiple of those because it seems this thing needs a lot of wire.  The resistors I hated and did not use.  The legs have a diameter of 0.3 mm which is just too thin.  When you want to insert them into a breadboard they just bend.  The resistors eventually also came from Mouser.
 
 Next up, the goals of this build.
 * I wanted a schematic of my build so I learned to use [KiCad](https://www.kicad.org/)
