@@ -1255,6 +1255,9 @@
   (junction (at 152.4 33.02) (diameter 0) (color 0 0 0 0)
     (uuid 1c899bfc-adde-42a4-a27a-6c1419c7a514)
   )
+  (junction (at 38.1 182.88) (diameter 0) (color 255 0 0 1)
+    (uuid 286b0646-1d20-4aaa-8a93-643a1fdf813a)
+  )
   (junction (at 119.38 140.97) (diameter 0) (color 0 0 0 0)
     (uuid 2953bc93-dbb3-461b-a786-794b2ddd4677)
   )
@@ -2032,6 +2035,10 @@
     (stroke (width 0) (type default) (color 0 0 255 1))
     (uuid ec413e53-8251-4b70-886f-50033a087a40)
   )
+  (wire (pts (xy 38.1 182.88) (xy 38.1 186.69))
+    (stroke (width 0) (type default) (color 255 0 0 1))
+    (uuid ec597676-752e-4a5c-9cc2-a567d438a386)
+  )
   (wire (pts (xy 54.61 109.22) (xy 58.42 109.22))
     (stroke (width 0) (type default))
     (uuid ec7783ca-1d01-487e-bb97-e0d3499d8d75)
@@ -2382,6 +2389,40 @@
       (project "8-bit-cpu"
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/2c3402b7-c2ba-43ce-9f44-0fa5e5dc9ef7"
           (reference "U32") (unit 2)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 38.1 194.31 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1993501d-b1e1-4926-9d61-4978ab7403de)
+    (property "Reference" "#PWR03" (at 38.1 200.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 38.1 199.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 38.1 194.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 38.1 194.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c20ba2fb-cb3d-4fbd-9531-a96a770300d4))
+    (instances
+      (project "8-bit-cpu"
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/45eb39c3-c748-461e-8330-08aae1247dee"
+          (reference "#PWR03") (unit 1)
+        )
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
+          (reference "#PWR038") (unit 1)
+        )
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
+          (reference "#PWR056") (unit 1)
+        )
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/2c3402b7-c2ba-43ce-9f44-0fa5e5dc9ef7"
+          (reference "#PWR0266") (unit 1)
         )
       )
     )
@@ -3060,6 +3101,35 @@
         )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/2c3402b7-c2ba-43ce-9f44-0fa5e5dc9ef7"
           (reference "U34") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 38.1 190.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (uuid 9c6f0b66-9cc8-4707-b290-c5baa626cbf3)
+    (property "Reference" "C13" (at 41.91 189.23 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10n" (at 41.91 191.77 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "01_my_library:C_Disc_D4.0mm_W2.6mm_P2.50mm" (at 39.0652 194.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 38.1 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 352dd516-4794-489b-af03-a287614fe49f))
+    (pin "2" (uuid baf79ca8-30f9-4c42-a298-75198278dee1))
+    (instances
+      (project "8-bit-cpu"
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
+          (reference "C13") (unit 1)
+        )
+        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/2c3402b7-c2ba-43ce-9f44-0fa5e5dc9ef7"
+          (reference "C78") (unit 1)
         )
       )
     )
