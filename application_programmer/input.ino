@@ -12,10 +12,6 @@ void readSerial() {
       Serial.println("Programming test");
       test();
     }
-    if (serialInput.indexOf("fibcounter") == 0) {
-      Serial.println("Programming fibonacci counter");
-      fibonacciInstructionCounter();
-    }
     if (serialInput.indexOf("fibonacci") == 0) {
       Serial.println("Programming fibonacci");
       fibonacci();
