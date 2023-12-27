@@ -27,7 +27,7 @@
 #define DECX 0b00011010
 
 const int ADDRESS_PINS[8] = { 2, 3, 4, 5, 6, 7, 8, 9 };  // D2, D3, D4, D5, D6, D7, D8, D9
-#define WRITE_PIN 10                                     // D10
+#define WRITE_PIN 10                                 // D10
 
 int instructionCounter = 0;
 int dataCounter = 0;
@@ -59,6 +59,8 @@ void setup() {
   digitalWrite(A1, LOW);
   pinMode(A0, OUTPUT);
   digitalWrite(A0, LOW);
+
+  fibonacci();
 }
 
 void loop() {
