@@ -173,9 +173,7 @@
       ],
       "track_widths": [
         0.0,
-        0.3,
-        0.5,
-        0.7
+        0.25
       ],
       "via_dimensions": [
         {
@@ -415,7 +413,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.4,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -425,14 +423,31 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.4,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "5V",
+        "pcb_color": "rgb(255, 0, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -442,14 +457,14 @@
         "name": "BUS",
         "pcb_color": "rgb(0, 16, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.4,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -459,24 +474,7 @@
         "name": "GND",
         "pcb_color": "rgb(72, 72, 72)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.4,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "PWR",
-        "pcb_color": "rgb(255, 0, 0)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.7,
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -497,7 +495,7 @@
         "pattern": "GND"
       },
       {
-        "netclass": "PWR",
+        "netclass": "5V",
         "pattern": "+5V"
       }
     ]
