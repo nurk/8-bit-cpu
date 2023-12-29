@@ -1,4 +1,4 @@
-22466130027106780
+22467833684073592
 01_my_library
 C_Disc_D4.0mm_W2.6mm_P2.50mm
 C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
@@ -27,6 +27,13 @@ Potentiometer_Bourns_3362U_Vertical
 0
 3
 3
+01_my_library
+star
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
