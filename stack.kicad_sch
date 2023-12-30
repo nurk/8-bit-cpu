@@ -1597,7 +1597,7 @@
   (symbol (lib_id "power:+5V") (at 124.46 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0346f605-d484-4b0f-8899-ac8b44f64dfe)
-    (property "Reference" "#PWR047" (at 124.46 116.84 0)
+    (property "Reference" "#PWR0271" (at 124.46 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 124.46 107.95 0)
@@ -1612,17 +1612,8 @@
     (pin "1" (uuid 3a1eca43-39ea-4f04-98c8-2ee360aee04e))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR047") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "#PWR049") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "#PWR0222") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
-          (reference "#PWR0269") (unit 1)
+          (reference "#PWR0271") (unit 1)
         )
       )
     )
@@ -1631,13 +1622,13 @@
   (symbol (lib_id "Device:LED") (at 132.08 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ef97ac6-2094-456a-a7c1-cfb5bc7bdf2e)
-    (property "Reference" "D8" (at 134.62 161.29 90)
+    (property "Reference" "D118" (at 134.62 161.29 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YELLOW" (at 134.62 163.83 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_THT:LED_D5.0mm" (at 132.08 161.29 0)
+    (property "Footprint" "01_my_library:LED_D5.0mm" (at 132.08 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 161.29 0)
@@ -1647,21 +1638,6 @@
     (pin "2" (uuid d6cee3bc-d801-4a48-9877-8032ac4c7b24))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "D8") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "D16") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "D32") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "D704") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "D48") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "D118") (unit 1)
         )
@@ -1672,7 +1648,7 @@
   (symbol (lib_id "power:+5V") (at 189.23 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17c2c831-c537-46b2-8bb9-3f6c17a64134)
-    (property "Reference" "#PWR039" (at 189.23 105.41 0)
+    (property "Reference" "#PWR0263" (at 189.23 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 189.23 96.52 0)
@@ -1687,17 +1663,8 @@
     (pin "1" (uuid 0c6001b3-d9d8-4be5-bf31-5047018d6988))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR039") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "#PWR052") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "#PWR0168") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
-          (reference "#PWR0261") (unit 1)
+          (reference "#PWR0263") (unit 1)
         )
       )
     )
@@ -1706,7 +1673,7 @@
   (symbol (lib_id "Device:R") (at 162.56 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 187376e2-f97c-44ce-9aad-141a273d6727)
-    (property "Reference" "R17" (at 165.1 152.4 0)
+    (property "Reference" "R165" (at 165.1 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220R" (at 165.1 154.94 0)
@@ -1722,21 +1689,6 @@
     (pin "1" (uuid 722b0610-110c-40ba-a1d5-775a278c6efd))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "R17") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "R25") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "R49") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "R707") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "R73") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "R165") (unit 1)
         )
@@ -1747,7 +1699,7 @@
   (symbol (lib_id "power:GND") (at 252.73 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cf6c6ce-bf59-440d-9e64-ffe76ae257bc)
-    (property "Reference" "#PWR03" (at 252.73 118.11 0)
+    (property "Reference" "#PWR0270" (at 252.73 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 116.84 0)
@@ -1762,20 +1714,8 @@
     (pin "1" (uuid 0b771ff0-9956-4fcd-9efe-5239e6620c34))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/45eb39c3-c748-461e-8330-08aae1247dee"
-          (reference "#PWR03") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR045") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "#PWR053") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "#PWR0172") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
-          (reference "#PWR0268") (unit 1)
+          (reference "#PWR0270") (unit 1)
         )
       )
     )
@@ -1784,7 +1724,7 @@
   (symbol (lib_id "Device:R") (at 172.72 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 329676a9-9c3b-40e2-b385-4c68ed7ee6f7)
-    (property "Reference" "R18" (at 175.26 152.4 0)
+    (property "Reference" "R166" (at 175.26 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220R" (at 175.26 154.94 0)
@@ -1800,21 +1740,6 @@
     (pin "1" (uuid 6ff62f15-0958-4689-9dfc-4ef093799c08))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "R18") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "R26") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "R50") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "R708") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "R74") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "R166") (unit 1)
         )
@@ -1825,7 +1750,7 @@
   (symbol (lib_id "Device:C") (at 142.24 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 37b486d2-5f38-4dff-841b-f62991d6052c)
-    (property "Reference" "C1" (at 134.62 83.82 0)
+    (property "Reference" "C79" (at 134.62 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 134.62 86.36 0)
@@ -1841,18 +1766,6 @@
     (pin "1" (uuid e854d5d4-686b-45a2-8825-9f23f4022be0))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/45eb39c3-c748-461e-8330-08aae1247dee"
-          (reference "C1") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "C13") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "C15") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "C63") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "C79") (unit 1)
         )
@@ -1863,7 +1776,7 @@
   (symbol (lib_id "Device:R") (at 121.92 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38b4df93-d57d-4ae2-bff7-1ecdc91fa565)
-    (property "Reference" "R13" (at 124.46 152.4 0)
+    (property "Reference" "R161" (at 124.46 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220R" (at 124.46 154.94 0)
@@ -1879,21 +1792,6 @@
     (pin "1" (uuid 1eda2d82-5513-4d84-9bcf-0e85915b5a21))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "R13") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "R21") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "R45") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "R703") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "R69") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "R161") (unit 1)
         )
@@ -1904,7 +1802,7 @@
   (symbol (lib_id "power:+5V") (at 72.39 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3db04c5a-53ca-4b31-aae2-673d679d1ced)
-    (property "Reference" "#PWR038" (at 72.39 105.41 0)
+    (property "Reference" "#PWR0262" (at 72.39 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 72.39 96.52 0)
@@ -1919,17 +1817,8 @@
     (pin "1" (uuid 0ba411ef-3ab6-4e8a-b742-8643b0a5b5ff))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR038") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "#PWR046") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "#PWR0174") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
-          (reference "#PWR0260") (unit 1)
+          (reference "#PWR0262") (unit 1)
         )
       )
     )
@@ -1938,7 +1827,7 @@
   (symbol (lib_id "power:GND") (at 137.16 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4515f4d6-0d37-42bd-83e7-7324858d5f55)
-    (property "Reference" "#PWR045" (at 137.16 177.8 0)
+    (property "Reference" "#PWR0272" (at 137.16 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 176.53 0)
@@ -1953,23 +1842,8 @@
     (pin "1" (uuid f11c8f61-ef52-43fd-b311-734762bbb67f))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR045") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "#PWR051") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "#PWR074") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "#PWR0710") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "#PWR0101") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
-          (reference "#PWR0270") (unit 1)
+          (reference "#PWR0272") (unit 1)
         )
       )
     )
@@ -1978,7 +1852,7 @@
   (symbol (lib_id "power:+5V") (at 252.73 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ffef950-b3b9-4f36-ae3e-36be68b15388)
-    (property "Reference" "#PWR039" (at 252.73 105.41 0)
+    (property "Reference" "#PWR0264" (at 252.73 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 252.73 96.52 0)
@@ -1993,17 +1867,8 @@
     (pin "1" (uuid 48ea92f1-ceac-4912-b621-2c6f71d654de))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR039") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "#PWR052") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "#PWR0171") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
-          (reference "#PWR0262") (unit 1)
+          (reference "#PWR0264") (unit 1)
         )
       )
     )
@@ -2012,13 +1877,13 @@
   (symbol (lib_id "Device:LED") (at 121.92 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5316c7ab-b38e-4d16-aec6-7214f45a37e0)
-    (property "Reference" "D7" (at 124.46 161.29 90)
+    (property "Reference" "D117" (at 124.46 161.29 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YELLOW" (at 124.46 163.83 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_THT:LED_D5.0mm" (at 121.92 161.29 0)
+    (property "Footprint" "01_my_library:LED_D5.0mm" (at 121.92 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 161.29 0)
@@ -2028,21 +1893,6 @@
     (pin "2" (uuid 22542b93-5047-4f0a-ab8a-0cd190b1cc56))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "D7") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "D15") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "D31") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "D703") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "D47") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "D117") (unit 1)
         )
@@ -2053,7 +1903,7 @@
   (symbol (lib_id "power:GND") (at 189.23 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54ac3534-8255-4891-8042-e6766cf3e3b3)
-    (property "Reference" "#PWR03" (at 189.23 118.11 0)
+    (property "Reference" "#PWR0269" (at 189.23 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 116.84 0)
@@ -2068,20 +1918,8 @@
     (pin "1" (uuid 7ba57242-bc47-41dc-8ca1-5b0e734cd827))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/45eb39c3-c748-461e-8330-08aae1247dee"
-          (reference "#PWR03") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR045") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "#PWR053") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "#PWR0169") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
-          (reference "#PWR0267") (unit 1)
+          (reference "#PWR0269") (unit 1)
         )
       )
     )
@@ -2090,13 +1928,13 @@
   (symbol (lib_id "Device:LED") (at 111.76 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e06b50e-88db-4075-b79d-d5af8febc281)
-    (property "Reference" "D6" (at 114.3 161.29 90)
+    (property "Reference" "D116" (at 114.3 161.29 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YELLOW" (at 114.3 163.83 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_THT:LED_D5.0mm" (at 111.76 161.29 0)
+    (property "Footprint" "01_my_library:LED_D5.0mm" (at 111.76 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 161.29 0)
@@ -2106,21 +1944,6 @@
     (pin "2" (uuid 8b7c0423-2679-4f1f-b4da-428ff00e9acc))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "D6") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "D14") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "D30") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "D702") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "D46") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "D116") (unit 1)
         )
@@ -2131,13 +1954,13 @@
   (symbol (lib_id "Device:LED") (at 142.24 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60c8ec76-e199-493f-b0f6-f171221da57a)
-    (property "Reference" "D9" (at 144.78 161.29 90)
+    (property "Reference" "D119" (at 144.78 161.29 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YELLOW" (at 144.78 163.83 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_THT:LED_D5.0mm" (at 142.24 161.29 0)
+    (property "Footprint" "01_my_library:LED_D5.0mm" (at 142.24 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 142.24 161.29 0)
@@ -2147,21 +1970,6 @@
     (pin "2" (uuid 17f29f5a-25b8-4b53-96b9-2cf898e1a9fe))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "D9") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "D17") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "D33") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "D705") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "D49") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "D119") (unit 1)
         )
@@ -2172,7 +1980,7 @@
   (symbol (lib_id "Device:C") (at 72.39 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 815caa6b-c7d2-4fc4-89b2-10e9463cae56)
-    (property "Reference" "C1" (at 64.77 106.68 0)
+    (property "Reference" "C80" (at 64.77 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 64.77 109.22 0)
@@ -2188,18 +1996,6 @@
     (pin "1" (uuid 6c3b9ce6-baff-407c-864a-188353341e46))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/45eb39c3-c748-461e-8330-08aae1247dee"
-          (reference "C1") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "C13") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "C15") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "C63") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "C80") (unit 1)
         )
@@ -2210,13 +2006,13 @@
   (symbol (lib_id "Device:LED") (at 101.6 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83990478-8eea-40cd-9044-c8a866ea418e)
-    (property "Reference" "D5" (at 104.14 161.29 90)
+    (property "Reference" "D115" (at 104.14 161.29 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YELLOW" (at 104.14 163.83 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_THT:LED_D5.0mm" (at 101.6 161.29 0)
+    (property "Footprint" "01_my_library:LED_D5.0mm" (at 101.6 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 101.6 161.29 0)
@@ -2226,21 +2022,6 @@
     (pin "2" (uuid a8182d6e-6150-4126-91ff-1de94bb997c4))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "D5") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "D13") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "D29") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "D701") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "D45") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "D115") (unit 1)
         )
@@ -2251,7 +2032,7 @@
   (symbol (lib_id "Device:R") (at 152.4 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8507c4bd-28cd-4067-9ccc-1187856c09cb)
-    (property "Reference" "R16" (at 154.94 152.4 0)
+    (property "Reference" "R164" (at 154.94 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220R" (at 154.94 154.94 0)
@@ -2267,21 +2048,6 @@
     (pin "1" (uuid bb3af289-c76c-4bc7-a5c0-634389395f2a))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "R16") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "R24") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "R48") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "R706") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "R72") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "R164") (unit 1)
         )
@@ -2292,7 +2058,7 @@
   (symbol (lib_id "01_my_library:74HCT193") (at 161.29 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ae5a3ac-cdbe-48d7-8887-ab7c95bfc7b9)
-    (property "Reference" "U46" (at 180.34 97.2119 90)
+    (property "Reference" "U64" (at 180.34 97.2119 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HCT193" (at 180.34 99.7519 90)
@@ -2322,9 +2088,6 @@
     (pin "2" (uuid f0de79df-b281-4f8a-b21f-0084e7854e74))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "U46") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "U64") (unit 1)
         )
@@ -2335,7 +2098,7 @@
   (symbol (lib_id "Device:R") (at 132.08 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d26ba7b-33b9-4882-8085-8c33cf6f626e)
-    (property "Reference" "R14" (at 134.62 152.4 0)
+    (property "Reference" "R162" (at 134.62 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220R" (at 134.62 154.94 0)
@@ -2351,21 +2114,6 @@
     (pin "1" (uuid 11bf0047-7b2e-4049-b7f2-08b7b02340d6))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "R14") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "R22") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "R46") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "R704") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "R70") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "R162") (unit 1)
         )
@@ -2376,7 +2124,7 @@
   (symbol (lib_id "74xx:74HCT00") (at 110.49 25.4 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e6335be-2322-455f-9eb2-fa35c0a99c19)
-    (property "Reference" "U56" (at 110.4817 16.51 0)
+    (property "Reference" "U58" (at 110.4817 16.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HCT00" (at 110.4817 19.05 0)
@@ -2404,9 +2152,6 @@
     (pin "7" (uuid e6e936b9-6654-463c-9039-590dd1cbffc2))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "U56") (unit 3)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "U58") (unit 3)
         )
@@ -2417,7 +2162,7 @@
   (symbol (lib_id "power:GND") (at 113.03 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e8b106e-789e-425d-9137-1a335b9975da)
-    (property "Reference" "#PWR041" (at 113.03 110.49 0)
+    (property "Reference" "#PWR0265" (at 113.03 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 109.22 0)
@@ -2432,17 +2177,8 @@
     (pin "1" (uuid c2e8e144-bbe3-4fe6-af95-16abc7c51756))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR041") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "#PWR0175") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
-          (reference "#PWR0263") (unit 1)
+          (reference "#PWR0265") (unit 1)
         )
       )
     )
@@ -2451,7 +2187,7 @@
   (symbol (lib_id "Device:C") (at 252.73 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9364a520-3df3-4dba-a0ec-70928cb6169e)
-    (property "Reference" "C1" (at 245.11 106.68 0)
+    (property "Reference" "C82" (at 245.11 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 245.11 109.22 0)
@@ -2467,18 +2203,6 @@
     (pin "1" (uuid 94e9a489-9cfb-4768-88ae-982fc93d82e9))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/45eb39c3-c748-461e-8330-08aae1247dee"
-          (reference "C1") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "C14") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "C16") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "C50") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "C82") (unit 1)
         )
@@ -2489,7 +2213,7 @@
   (symbol (lib_id "74xx:74HCT00") (at 110.49 40.64 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a6b1f6b-7b58-433b-90d0-8cc37b97eb81)
-    (property "Reference" "U56" (at 110.4817 31.75 0)
+    (property "Reference" "U58" (at 110.4817 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HCT00" (at 110.4817 34.29 0)
@@ -2517,9 +2241,6 @@
     (pin "7" (uuid e6e936b9-6654-463c-9039-590dd1cbffc3))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "U56") (unit 4)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "U58") (unit 4)
         )
@@ -2530,7 +2251,7 @@
   (symbol (lib_id "01_my_library:74HCT193") (at 224.79 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aed50a48-b664-497f-b881-85907840d961)
-    (property "Reference" "U43" (at 243.84 97.2119 90)
+    (property "Reference" "U65" (at 243.84 97.2119 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HCT193" (at 243.84 99.7519 90)
@@ -2560,9 +2281,6 @@
     (pin "2" (uuid a576e1b0-e125-4e0f-bf9b-b9cb1799856f))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "U43") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "U65") (unit 1)
         )
@@ -2573,13 +2291,13 @@
   (symbol (lib_id "Device:LED") (at 162.56 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid affad3d2-ef1d-45d1-9f02-1e973961e647)
-    (property "Reference" "D11" (at 165.1 161.29 90)
+    (property "Reference" "D121" (at 165.1 161.29 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YELLOW" (at 165.1 163.83 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_THT:LED_D5.0mm" (at 162.56 161.29 0)
+    (property "Footprint" "01_my_library:LED_D5.0mm" (at 162.56 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 162.56 161.29 0)
@@ -2589,21 +2307,6 @@
     (pin "2" (uuid e3eafabf-ac7e-4a1d-9111-73c1fffeb2cf))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "D11") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "D19") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "D35") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "D707") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "D51") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "D121") (unit 1)
         )
@@ -2614,7 +2317,7 @@
   (symbol (lib_id "Device:R") (at 101.6 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd07e55c-818f-4f12-873d-0c26696d731c)
-    (property "Reference" "R11" (at 104.14 152.4 0)
+    (property "Reference" "R159" (at 104.14 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220R" (at 104.14 154.94 0)
@@ -2630,21 +2333,6 @@
     (pin "1" (uuid 8cc65834-64e1-4d3c-a25e-4abfafbf2c05))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "R11") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "R19") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "R43") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "R701") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "R67") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "R159") (unit 1)
         )
@@ -2655,7 +2343,7 @@
   (symbol (lib_id "power:+5V") (at 252.73 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf192ec4-e651-417e-894b-c09a0693456a)
-    (property "Reference" "#PWR039" (at 252.73 81.28 0)
+    (property "Reference" "#PWR0261" (at 252.73 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 252.73 72.39 0)
@@ -2670,17 +2358,8 @@
     (pin "1" (uuid e8e1d14d-85bf-4859-a9e8-5708f54f7d88))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR039") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "#PWR052") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "#PWR0171") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
-          (reference "#PWR0259") (unit 1)
+          (reference "#PWR0261") (unit 1)
         )
       )
     )
@@ -2689,7 +2368,7 @@
   (symbol (lib_id "power:GND") (at 205.74 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3caeaae-a99c-4f69-b1ad-4789b9338033)
-    (property "Reference" "#PWR041" (at 205.74 110.49 0)
+    (property "Reference" "#PWR0267" (at 205.74 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 205.74 109.22 0)
@@ -2704,17 +2383,8 @@
     (pin "1" (uuid 0d36baea-f82e-4050-98e6-91aa2b4809ec))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR041") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "#PWR0224") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
-          (reference "#PWR0265") (unit 1)
+          (reference "#PWR0267") (unit 1)
         )
       )
     )
@@ -2723,7 +2393,7 @@
   (symbol (lib_id "Device:C") (at 189.23 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d658c5ae-efcd-48dd-a1f2-3cbb694db445)
-    (property "Reference" "C1" (at 181.61 106.68 0)
+    (property "Reference" "C81" (at 181.61 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 181.61 109.22 0)
@@ -2739,18 +2409,6 @@
     (pin "1" (uuid 56d23bff-6cfd-4d1a-aa05-31ee8fe6ba7b))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/45eb39c3-c748-461e-8330-08aae1247dee"
-          (reference "C1") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "C14") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "C16") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "C49") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "C81") (unit 1)
         )
@@ -2761,13 +2419,13 @@
   (symbol (lib_id "Device:LED") (at 152.4 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8fbbfa9-dcac-41b0-9de4-9ee59cac0671)
-    (property "Reference" "D10" (at 154.94 161.29 90)
+    (property "Reference" "D120" (at 154.94 161.29 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YELLOW" (at 154.94 163.83 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_THT:LED_D5.0mm" (at 152.4 161.29 0)
+    (property "Footprint" "01_my_library:LED_D5.0mm" (at 152.4 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 161.29 0)
@@ -2777,21 +2435,6 @@
     (pin "2" (uuid d7390fa8-2932-4b6b-9b7f-435dc2c91d40))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "D10") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "D18") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "D34") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "D706") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "D50") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "D120") (unit 1)
         )
@@ -2802,7 +2445,7 @@
   (symbol (lib_id "Device:R") (at 111.76 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc267087-dd6c-4c68-953b-efa8c5ab0638)
-    (property "Reference" "R12" (at 114.3 152.4 0)
+    (property "Reference" "R160" (at 114.3 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220R" (at 114.3 154.94 0)
@@ -2818,21 +2461,6 @@
     (pin "1" (uuid 43c4fa58-2df5-4862-bd98-5a1f1e0fe306))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "R12") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "R20") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "R44") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "R702") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "R68") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "R160") (unit 1)
         )
@@ -2843,7 +2471,7 @@
   (symbol (lib_id "power:GND") (at 72.39 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e99c5af5-25de-45e3-92cb-46340b6b91e2)
-    (property "Reference" "#PWR03" (at 72.39 118.11 0)
+    (property "Reference" "#PWR0268" (at 72.39 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 116.84 0)
@@ -2858,20 +2486,8 @@
     (pin "1" (uuid 806b125b-2376-49e8-8aeb-2151ad327eec))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/45eb39c3-c748-461e-8330-08aae1247dee"
-          (reference "#PWR03") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR044") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "#PWR047") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "#PWR0221") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
-          (reference "#PWR0266") (unit 1)
+          (reference "#PWR0268") (unit 1)
         )
       )
     )
@@ -2880,7 +2496,7 @@
   (symbol (lib_id "01_my_library:74HCT245") (at 92.71 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9daff3b-8056-4008-b6c7-daad7d914d10)
-    (property "Reference" "U7" (at 113.03 97.79 90)
+    (property "Reference" "U63" (at 113.03 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HCT245" (at 113.03 100.33 90)
@@ -2914,15 +2530,6 @@
     (pin "19" (uuid d7f1fa4e-5958-4022-b268-e348353f8344))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "U7") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "U10") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "U55") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "U63") (unit 1)
         )
@@ -2933,13 +2540,13 @@
   (symbol (lib_id "Device:LED") (at 172.72 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee805ee8-00dc-4325-a945-17526c1837c7)
-    (property "Reference" "D12" (at 175.26 161.29 90)
+    (property "Reference" "D122" (at 175.26 161.29 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YELLOW" (at 175.26 163.83 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_THT:LED_D5.0mm" (at 172.72 161.29 0)
+    (property "Footprint" "01_my_library:LED_D5.0mm" (at 172.72 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 172.72 161.29 0)
@@ -2949,21 +2556,6 @@
     (pin "2" (uuid fdc14877-98c9-4329-8457-9018943c01e5))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "D12") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "D20") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "D36") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "D708") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "D52") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "D122") (unit 1)
         )
@@ -2974,7 +2566,7 @@
   (symbol (lib_id "Device:R") (at 142.24 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f638b60c-a724-48cb-9b0b-6f8ee4199793)
-    (property "Reference" "R15" (at 144.78 152.4 0)
+    (property "Reference" "R163" (at 144.78 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220R" (at 144.78 154.94 0)
@@ -2990,21 +2582,6 @@
     (pin "1" (uuid 6b4e0bf9-a464-4763-867c-a79def792952))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "R15") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "R23") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/d6cd2240-d749-4685-b332-02e9e1af29c5"
-          (reference "R47") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/eeec1d6e-c04a-42fe-8103-cb8adc13344c"
-          (reference "R705") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/33b906b8-f63f-4a46-8ef2-4150917936b8/b8600875-f531-45d3-8c06-c8d636c0c136"
-          (reference "R71") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
           (reference "R163") (unit 1)
         )
@@ -3015,7 +2592,7 @@
   (symbol (lib_id "power:GND") (at 142.24 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6c9abe6-8738-46a0-8955-9751768c67d3)
-    (property "Reference" "#PWR041" (at 142.24 110.49 0)
+    (property "Reference" "#PWR0266" (at 142.24 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 109.22 0)
@@ -3030,17 +2607,8 @@
     (pin "1" (uuid deb4be50-c373-42b4-ae88-095a18959680))
     (instances
       (project "8-bit-cpu"
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/651dfbaf-e340-4976-8216-793c5a5aaa3b"
-          (reference "#PWR041") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/3568514a-e420-48fa-9fd5-7a290120765b"
-          (reference "#PWR048") (unit 1)
-        )
-        (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/54bf2e20-7ca1-4029-bb63-3da9aa82cef3"
-          (reference "#PWR0223") (unit 1)
-        )
         (path "/100bb8d1-c3d6-4e1f-87b6-72e4e187243c/77326d47-b417-46cc-a46c-7ab94a8e927d"
-          (reference "#PWR0264") (unit 1)
+          (reference "#PWR0266") (unit 1)
         )
       )
     )
