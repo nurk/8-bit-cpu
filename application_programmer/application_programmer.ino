@@ -60,7 +60,8 @@ void setup() {
   pinMode(A0, OUTPUT);
   digitalWrite(A0, LOW);
 
-  fibonacci();
+  //fibonacci();
+  fibonacciInstructionCounter();
 }
 
 void loop() {
